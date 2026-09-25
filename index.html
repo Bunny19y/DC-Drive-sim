@@ -323,22 +323,56 @@ body {
 /* MENU DATA STRUCTURE */
 const menuTree = {
     "PARAMETER SAVE": ["Save Parameter"],
-    "CHANGE PARAMETERS": {
-        "CALIBRATION": [
-            "2)RATED ARM AMPS", "3)CURRENT LIMIT (%)", "4)RATED FIELD AMPS", "5)BASE RATED RPM",
-            "6)DESIRED MAX RPM", "7)ZERO SPEED OFFSET", "8)MAX TACHO VOLTS", "9)SPEED FBK TYPE",
-            "ENCODER SCALING", "14)IR COMPENSATION", "15)FIELD CUR FB TRIM", "16)ARM VOLTS TRIM",
-            "17)ANALOG TACHO TRIM", "18)RATED ARM VOLTS", "19)EL1/2/3 RATED AC", "20)MOTOR 1,2 SELECT"
-        ],
-        "RUN MODE RAMPS": ["RAMP ACCEL TIME", "RAMP DECEL TIME", "RAMP HOLD ENABLE", "RAMP RESET ENABLE"],
-        "JOG CRAWL SLACK": ["JOG SPEED REF", "CRAWL SPEED REF", "SLACK TIME SET"],
+"CHANGE PARAMETERS": {
+    "CALIBRATION": 
+            ["2)RATED ARM AMPS",
+            "3)CURRENT LIMIT (%)",
+            "4)RATED FIELD AMPS",
+            "5)BASE RATED RPM",
+            "6)DESIRED MAX RPM",
+            "7)ZERO SPEED OFFSET",
+            "8)MAX TACHO VOLTS",
+            "9)SPEED FBK TYPE",
+            "ENCODER SCALING", 
+            "14)IR COMPENSATION",
+            "15)FIELD CUR FB TRIM",
+            "16)ARM VOLTS TRIM",
+            "17)ANALOG TACHO TRIM",
+            "18)RATED ARM VOLTS",
+            "19)EL1/2/3 RATED AC",
+            "20)MOTOR 1,2 SELECT"],
+    "RUN MODE RAMPS": 
+            ["21)RAMP OP MONITOR",
+             "22)FORWARD UP TIME",
+             "23)FORWARD DOWN TIME",
+             "24)REVRSE UP TIME",
+             "25)REVERSE DOWN TIME",
+             "26)RAMP INPUT",
+             "27)FORWARD MIN SPEED",
+             "28)REVERSE MIN SPEED",
+             "29)RAMP AUTO PRESET",
+             "30)RAMP EXT PRESET",
+             "31)RAMP PRESET VALUE",
+             "32)RAMP S-PROFILE %",
+             "33)RAMP HOLD",
+             "34)RAMPING THRESHOLD",
+             "35)RAMPING FLAG",
+        
+     "JOG CRAWL SLACK": 
+             ["37)JOG SPEED 1",
+             "38)JOG SPEED 2",
+             "39)SLACK SPEED 1",
+             "40)SLACK SPEED 2",
+             "41)CRAWL SPEED",
+             "42)JOG MODE SELECT",
+             "43)JOG/SLACK RAMP"],
         "MOTORISED POT RAMP": ["M/POT ACCEL TIME", "M/POT DECEL TIME", "M/POT MIN LIMIT", "M/POT MAX LIMIT"],
-        "STOP MODE": ["STOP MODE SELECT", "COAST STOP EN", "REGEN STOP EN"],
-        "SPEED REF": ["MAIN SPEED REF", "AUX SPEED REF", "TRIM SPEED REF", "MAX SPEED LIMIT"],
+        "STOP MODE RAMPS": ["STOP MODE SELECT", "COAST STOP EN", "REGEN STOP EN"],
+        "SPEED REF SUMMER": ["MAIN SPEED REF", "AUX SPEED REF", "TRIM SPEED REF", "MAX SPEED LIMIT"],
         "SPEED CONTROL": ["PROP GAIN (P)", "INT GAIN (I)", "DERIV GAIN (D)", "SPEED ERROR TRIM"],
         "CURRENT CONTROL": ["ARM CUR LIMIT +", "ARM CUR LIMIT -", "CUR LOOP PROP GAIN", "CUR LOOP INT GAIN"],
         "FIELD CONTROL": ["FIELD WEAKENING EN", "MIN FIELD CUR", "MAX FIELD CUR", "FLD CTRL GAIN"],
-        "ZERO INTLKS": ["ZERO SPEED INTLK", "ZERO CURR INTLK", "DRIVE READY INTLK"]
+        "ZERO INTERLOCKS": ["ZERO SPEED INTLK", "ZERO CURR INTLK", "DRIVE READY INTLK"]
     },
    
   
